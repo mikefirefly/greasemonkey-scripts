@@ -5,6 +5,7 @@
 // @description Hides user avatars, names and vote counts from Wykop.pl threads
 // @match       https://www.wykop.pl/*
 // @run-at      document-idle
+// @version     1
 // @downloadURL https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
 // @updateURL   https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
 // ==/UserScript==
