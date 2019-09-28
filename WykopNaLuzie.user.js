@@ -5,8 +5,8 @@
 // @description Hides user avatars, names and vote counts from Wykop.pl threads
 // @match       https://www.wykop.pl/*
 // @run-at      document-idle
-// @downloadURL https://github.com/narayagh/greasemonkey-scripts/blob/master/WykopNaLuzie.user.js
-// @updateURL   https://github.com/narayagh/greasemonkey-scripts/blob/master/WykopNaLuzie.user.js
+// @downloadURL https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
+// @updateURL   https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
 // ==/UserScript==
 
 classNegativeVotes = 'cbb0000', classPositiveVotes = 'c2a7017';
