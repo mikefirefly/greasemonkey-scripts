@@ -2,8 +2,8 @@
 // @name      Wykop Na Luzie
 // @match     https://www.wykop.pl/*
 // @run-at    document-idle
-// @downloadURL
-// @updateURL
+// @downloadURL https://github.com/narayagh/greasemonkey-scripts/blob/master/WykopNaLuzie.user.js
+// @updateURL https://github.com/narayagh/greasemonkey-scripts/blob/master/WykopNaLuzie.user.js
 // ==/UserScript==
 
 classNegativeVotes = 'cbb0000', classPositiveVotes = 'c2a7017';
