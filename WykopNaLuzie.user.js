@@ -5,7 +5,7 @@
 // @description Hides user avatars, names and vote counts from Wykop.pl threads
 // @match       https://www.wykop.pl/*
 // @run-at      document-idle
-// @version     1
+// @version     2
 // @downloadURL https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
 // @updateURL   https://github.com/narayagh/greasemonkey-scripts/raw/master/WykopNaLuzie.user.js
 // ==/UserScript==
@@ -27,3 +27,7 @@ for (var i = 0; i < elPositiveVotes.length; i++) elPositiveVotes[i].hidden = tru
 
 elZeroVotes = document.getElementsByTagName('span');
 for (var i = 0; i < elZeroVotes.length; i++) if (elZeroVotes[i].innerText == '0') elZeroVotes[i].innerText = '';
+
+
+elVotersList = document.getElementsByClassName('voters-list');
+for (var i = 0; i < elVotersList.length; i++) elVotersList[i].hidden = true;
